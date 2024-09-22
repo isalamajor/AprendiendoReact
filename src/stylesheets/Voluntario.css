@@ -1,0 +1,41 @@
+.contenedor-voluntario {
+    width: 70%;
+    min-height: 15em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    line-height: 1.8;
+    
+}
+
+.contenedor-voluntario img {
+
+    width: 15em;
+    height: 15em;
+    object-fit:cover;
+}
+
+
+.puesto-voluntario {
+    color:  #335eff;
+    font-weight: 500;
+}
+
+.texto-voluntario {
+    line-height: 1;
+    font-size: 0.95em;
+    margin-top: 0.5em;
+}
+
+.contenedor-texto {
+    margin: 1em 1.5em;
+}
+
+@media (max-width: 768px) {
+    .contenedor-voluntario {
+        flex-direction: column;
+        height: max-content;
+    }
+}
